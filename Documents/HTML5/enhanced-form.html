@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enhanced HTML5 Content & Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f0f0f0;
+      line-height: 1.6;
+    }
+    header, section, footer {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    fieldset {
+      margin-top: 20px;
+      padding: 15px;
+    }
+    legend {
+      font-weight: bold;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, select, textarea {
+      padding: 8px;
+      width: 100%;
+      max-width: 400px;
+      margin-top: 5px;
+    }
+    input[type="submit"] {
+      width: auto;
+      margin-top: 20px;
+    }
+    img, video {
+      margin-top: 10px;
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>HTML5 Assignment: Enhanced Content & Form</h1>
+  <p>This page demonstrates HTML5 features including lists, tables, media, and a form with native validation.</p>
+</header>
+
+<section>
+  <h2>📋 Favorite Programming Languages</h2>
+  <ul>
+    <li>Python</li>
+    <li>JavaScript</li>
+    <li>HTML & CSS</li>
+    <li>Java</li>
+    <li>SQL</li>
+  </ul>
+</section>
+
+<section>
+  <h2>📊 Weekly Study Schedule</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Topic</th>
+        <th>Hours</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>HTML & CSS</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>JavaScript</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Python</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>🎵 Motivation Media</h2>
+
+  <p>✅ <strong>Motivational Audio</strong></p>
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <p>✅ <strong>Inspirational Image</strong></p>
+  <img src="pexels-anntarazevich-5697255.jpg" alt="Motivational image" width="300" height="200">
+
+
+  <p>✅ <strong>Educational Video</strong></p>
+  <video controls width="480">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+<section>
+  <h2>📝 Registration Form</h2>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required placeholder="John Doe" autocomplete="name"/>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="john@example.com" autocomplete="email"/>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="0712345678"/>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required/>
+    </fieldset>
+
+    <fieldset>
+      <legend>Account Setup</legend>
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required minlength="5" placeholder="Choose a username"/>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required minlength="6" placeholder="Enter password"/>
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required minlength="6" placeholder="Repeat password"/>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="bio">Short Bio:</label>
+      <textarea id="bio" name="bio" rows="4" placeholder="Tell us something about yourself..."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Preferences</legend>
+
+      <label>
+        <input type="checkbox" name="subscribe" value="yes" checked />
+        Subscribe to newsletter
+      </label>
+
+      <label for="readonly-note">Referral Code (Read-only):</label>
+      <input type="text" id="readonly-note" value="HTML2025" readonly />
+
+    </fieldset>
+
+    <input type="submit" value="Register" />
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 HTML5 Assignment Project. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
