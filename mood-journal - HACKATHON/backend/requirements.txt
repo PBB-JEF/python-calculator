@@ -1,0 +1,26 @@
+# Core Flask dependencies
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Login==0.6.3
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+
+# Security and authentication
+bcrypt==4.0.1
+python-dotenv==1.0.0
+
+# Database
+SQLAlchemy==2.0.43
+greenlet==3.2.4
+
+# Production server
+waitress==3.0.2
+
+# Development and testing (optional)
+pytest==7.4.3
+pytest-flask==1.3.0
+black==23.11.0
+flake8==6.1.0
+
+# Environment management
+python-dotenv==1.0.0

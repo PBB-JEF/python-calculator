@@ -1,0 +1,50 @@
+# -------------------------
+# Python / Flask
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+instance/
+*.log
+
+# Virtual environment
+venv/
+ENV/
+.venv/
+
+# Environment variables
+.env
+
+# -------------------------
+# Node / React
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build output
+/build
+/dist
+/.parcel-cache
+/.next
+/out
+coverage/
+
+# -------------------------
+# OS-specific files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+*.swp

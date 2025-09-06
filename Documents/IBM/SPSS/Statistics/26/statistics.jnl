@@ -1,0 +1,14 @@
+Thursday, June 5, 2025 5:10:03 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+Thursday, June 5, 2025 5:14:33 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
+NEW FILE.
+DATASET NAME DataSet1 WINDOW=FRONT.
+Thursday, June 5, 2025 9:57:13 PM EAT
+*>Warning # 849 in column 23.  Text: en_KE
+*>The LOCALE subcommand of the SET command has an invalid parameter.  It could
+*>not be mapped to a valid backend locale.
